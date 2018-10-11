@@ -331,3 +331,13 @@ border-radius: 5px;
 
 }
 
+#timeline_zone div[id*='line-'] {
+  display:none;
+}
+
+#timeline_zone div[id*='line-'].active {
+  display: block;
+}
+
+
+
